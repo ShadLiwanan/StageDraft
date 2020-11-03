@@ -25,12 +25,12 @@ camera.lookAt(new THREE.Vector3(0, 0, 0));
 let stageGeometry = new THREE.BoxBufferGeometry(100,100,100);
 let stageGround = 
 [
-  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/4.jpg'), side: THREE.DoubleSide}),
-  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/4.jpg'), side: THREE.DoubleSide}),
-  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/4.jpg'), side: THREE.DoubleSide}),
+  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/5.jpg'), side: THREE.DoubleSide}),
+  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/5.jpg'), side: THREE.DoubleSide}),
+  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/5.jpg'), side: THREE.DoubleSide}),
   new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/3.jpg'), side: THREE.DoubleSide}),
-  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/4.jpg'), side: THREE.DoubleSide}),
-  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/4.jpg'), side: THREE.DoubleSide})
+  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/5.jpg'), side: THREE.DoubleSide}),
+  new THREE.MeshBasicMaterial ({map: new THREE.TextureLoader().load('images/5.jpg'), side: THREE.DoubleSide})
 
 ];
 let stageMaterials = new THREE.MeshFaceMaterial(stageGround);
